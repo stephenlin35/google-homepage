@@ -1,3 +1,48 @@
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #585858;
+  font-family: Arial;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.navbar {
+  height: 30px;
+  margin-top: 15px;
+}
+
+.navbar a {
+  display: inline-block;
+  line-height: 30px;
+  float: right;
+  margin-left: 15px;
+  font-size: 0.8em;
+}
+
+.navbar .apps {
+  background-image: url(https://raw.githubusercontent.com/arioth/the-odin-project/master/google-homepage/images.png);
+  /*background-size: 112px 1828px;*/
+  background-position: -69px -854px;
+  height: 27px;
+  width: 27px;
+}
+
+.navbar .btn {
+  background-color: #4285f4;
+  padding: 0 13px;
+  font-weight: bolder;
+  color: #fff;
+  margin-right: 25px;
+  border-radius: 2px;
+  text-decoration: none;
+}
+
 .logo {
   background-image: url(https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png);
   height: 92px;
@@ -22,11 +67,38 @@
 }
 
 button {
-  background-color: #D0D0D0;
   font-weight: bold;
-  color: #707070;
   font-size: 12px;
+  display: inline-block;
   padding: 10px;
+  color: #787878;
   border-radius: 3px;
-  
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  background-color: #F0F0F0;
+  border-top: 1px solid #E8E8E8;
+  line-height: 40px;
+}
+
+.footer .left {
+  float: left;
+}
+
+.footer .right {
+  float: right;
+  margin-right: 30px;
+}
+
+.footer a {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 27px;
+  font-size: 0.8em;
 }
